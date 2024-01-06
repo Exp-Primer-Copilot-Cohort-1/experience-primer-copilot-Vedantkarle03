@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "cognitive-services-speech-sdk-master",
+			"path": "cognitive-services-speech-sdk-master"
+		}
+	],
+	"settings": {
+		"azureFunctions.projectSubpath": "cognitive-services-speech-sdk-master\\samples\\batch\\csharp\\webhookreceiver",
+		"azureFunctions.deploySubpath": "cognitive-services-speech-sdk-master",
+		"azureFunctions.projectLanguage": "JavaScript",
+		"azureFunctions.projectRuntime": "~4",
+		"debug.internalConsoleOptions": "neverOpen",
+		"azureFunctions.preDeployTask": "npm prune (functions)",
+		"azureFunctions.postDeployTask": "npm install (functions)",
+		"azureFunctions.projectLanguageModel": 4
+	}
+}
